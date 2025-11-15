@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <style>
+    .box { fill:#f7f9fc; stroke:#2b6cb0; stroke-width:2; rx:8; }
+    .small { font: 12px/1.2 "Arial"; fill:#0b3a66 }
+    .title { font: 16px/1.2 "Arial"; fill:#08306b; font-weight:700 }
+    .arrow { stroke:#4a5568; stroke-width:2; fill:none; marker-end:url(#arrowhead) }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="24" y="32" class="title">Project Workflow — Multi-Agent Academic Paper Assistant</text>
+
+  <!-- Left column: Input / UI -->
+  <rect x="24" y="64" width="220" height="84" class="box" />
+  <text x="38" y="94" class="small">User Interface</text>
+  <text x="38" y="112" class="small">- `app.py` (Flask)</text>
+  <text x="38" y="130" class="small">- / (form) → /run → /status</text>
+
+  <!-- ResearchAgent box -->
+  <rect x="280" y="52" width="240" height="72" class="box" />
+  <text x="300" y="82" class="small">ResearchAgent</text>
+  <text x="300" y="100" class="small">- queries arXiv via `arxiv`</text>
+
+  <!-- Arrow UI -> Research -->
+  <path d="M244 106 L280 88" class="arrow" />
+
+  <!-- Context compaction -->
+  <rect x="560" y="44" width="220" height="72" class="box" />
+  <text x="580" y="78" class="small">Context Compaction</text>
+  <text x="580" y="96" class="small">- `compact_context`</text>
+
+  <path d="M520 88 L560 88" class="arrow" />
+
+  <!-- WriterAgent -->
+  <rect x="840" y="40" width="260" height="88" class="box" />
+  <text x="860" y="74" class="small">WriterAgent</text>
+  <text x="860" y="92" class="small">- uses Gemini (`google.generativeai`) if available</text>
+  <text x="860" y="110" class="small">- otherwise template-based draft</text>
+
+  <path d="M780 88 L840 84" class="arrow" />
+
+  <!-- EditorAgent -->
+  <rect x="840" y="160" width="260" height="64" class="box" />
+  <text x="860" y="192" class="small">EditorAgent</text>
+  <text x="860" y="210" class="small">- lightweight cleanup & formatting</text>
+
+  <path d="M980 128 L980 160" class="arrow" />
+
+  <!-- PlagiarismAgent -->
+  <rect x="840" y="248" width="260" height="72" class="box" />
+  <text x="860" y="278" class="small">PlagiarismAgent</text>
+  <text x="860" y="296" class="small">- difflib-based similarity (heuristic)</text>
+
+  <path d="M980 224 L980 248" class="arrow" />
+
+  <!-- Sessions / persistence -->
+  <rect x="560" y="260" width="240" height="88" class="box" />
+  <text x="580" y="288" class="small">Session Store</text>
+  <text x="580" y="306" class="small">- `sessions/<id>.json`</text>
+  <text x="580" y="324" class="small">- `sessions/<id>.log`</text>
+
+  <path d="M980 292 L800 292 L800 306" class="arrow" />
+  <path d="M700 88 L560 88" class="arrow" />
+  <path d="M1100 84 L1100 160" class="arrow" />
+
+  <!-- agent_app.py and agent.ipynb -->
+  <rect x="24" y="180" width="220" height="104" class="box" />
+  <text x="38" y="204" class="small">Local Runners</text>
+  <text x="38" y="222" class="small">- `agent_app.py` (canonical script)</text>
+  <text x="38" y="240" class="small">- `agent.ipynb` (notebook)</text>
+
+  <path d="M240 210 L280 88" class="arrow" />
+
+  <!-- Notes / Legend -->
+  <rect x="24" y="308" width="1070" height="132" fill="#fff7e6" stroke="#b08900" stroke-width="1" rx="6" />
+  <text x="38" y="334" class="small">Legend / Notes:</text>
+  <text x="38" y="352" class="small">• Flow: UI / script → Research → Context → Writer → Editor → Plagiarism → Session</text>
+  <text x="38" y="370" class="small">• Replace difflib with embeddings + FAISS for semantic plagiarism (TODO)</text>
+  <text x="38" y="388" class="small">• Logs are streamed via `app.py` status page (SSE) while background job runs</text>
+
+  <!-- Arrows connecting key boxes horizontally -->
+  <path d="M520 88 L560 88" class="arrow" />
+  <path d="M800 88 L840 84" class="arrow" />
+
+  <!-- Footer -->
+  <text x="24" y="676" class="small">Files: agent_app.py · agent.ipynb · app.py · requirements.txt · sessions/ · docs/workflow.svg</text>
+</svg>
