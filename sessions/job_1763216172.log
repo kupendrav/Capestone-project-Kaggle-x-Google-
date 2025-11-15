@@ -1,0 +1,12 @@
+2025-11-15 19:46:12,614 INFO ResearchAgent searching arXiv for query: robotics
+2025-11-15 19:46:18,907 INFO ResearchAgent found 5 papers
+2025-11-15 19:46:18,908 INFO WriterAgent generating draft for: robotics
+2025-11-15 19:46:30,974 WARNING GenAI write failed, falling back to template: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-11-15 19:46:30,974 INFO EditorAgent editing paper (lightweight edits)
+2025-11-15 19:46:30,975 INFO PlagiarismAgent comparing paper against 5 source abstracts
+2025-11-15 19:46:31,018 INFO Saved session job_1763216172
+2025-11-15 19:46:31,022 INFO Workflow complete: total_time=18.40s, num_papers=5

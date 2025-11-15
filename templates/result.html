@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agent Dev Kit — Result</title>
+    <style>body{font-family:Arial, sans-serif; margin:2rem} pre{background:#f6f6f6;padding:1rem}</style>
+  </head>
+  <body>
+    <h1>Result for: {{ title }}</h1>
+    <p><a href="/">← Back</a></p>
+
+    <h2>Session</h2>
+    <pre>{{ result['session'] | tojson(indent=2) }}</pre>
+
+    <h2>Draft</h2>
+    <p>Use the expandable sections below to view the draft and edited text. Full text is preserved in the session JSON.</p>
+    <details>
+      <summary>Show draft (first 2000 chars)</summary>
+      <pre>{{ result['draft'][:2000] }}</pre>
+    </details>
+    <details>
+      <summary>Show full draft</summary>
+      <pre>{{ result['draft'] }}</pre>
+    </details>
+
+    <h2>Edited</h2>
+    <details>
+      <summary>Show edited (first 2000 chars)</summary>
+      <pre>{{ result['edited'][:2000] }}</pre>
+    </details>
+    <details>
+      <summary>Show full edited</summary>
+      <pre>{{ result['edited'] }}</pre>
+    </details>
+
+    <h2>Plagiarism report</h2>
+    <pre>{{ result['plagiarism'] | tojson(indent=2) }}</pre>
+  </body>
+</html>

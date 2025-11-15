@@ -1,0 +1,6 @@
+google-generativeai
+arxiv
+requests
+jupyter
+notebook
+Flask

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agent Dev Kit</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; }
+      label { display:block; margin-top: .5rem }
+      textarea { width: 100%; height: 120px }
+      .box { max-width: 800px }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Agent Dev Kit — Run Workflow</h1>
+      <form method="post" action="/run">
+        <label for="title">Paper Title</label>
+        <input id="title" name="title" required style="width:100%" />
+
+        <label for="max_results">Max arXiv results</label>
+        <input id="max_results" name="max_results" type="number" value="5" min="1" max="50" />
+
+        <label for="session_id">Session ID (optional)</label>
+        <input id="session_id" name="session_id" style="width:100%" />
+
+        <p><button type="submit">Run Workflow</button></p>
+      </form>
+      <p>Or use the API endpoint <code>/api/run</code> (POST JSON: {"title":"..."}).</p>
+    </div>
+  </body>
+</html>

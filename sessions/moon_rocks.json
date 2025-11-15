@@ -1,0 +1,71 @@
+{
+  "title": "moon rocks",
+  "steps": [
+    {
+      "step": "research",
+      "count": 6,
+      "time": 4.233675479888916
+    },
+    {
+      "step": "draft",
+      "time": 11.980364084243774
+    },
+    {
+      "step": "edit",
+      "time": 0.0007288455963134766
+    },
+    {
+      "step": "plagiarism",
+      "time": 0.018112659454345703
+    }
+  ],
+  "metrics": {
+    "total_time": 16.23319101333618,
+    "num_papers": 6
+  },
+  "papers": [
+    {
+      "title": "The moon and the origin of life",
+      "authors": "C. R. Benn",
+      "abstract": "Earth is unusual in bearing life, and in having a large moon. A number of authors have suggested a possible connection between the two, e.g. through lunar stabilisation of the earth's obliquity, or through the effects of the oceanic tides. The various suggestions are reviewed.",
+      "url": "http://arxiv.org/abs/astro-ph/0112399v1"
+    },
+    {
+      "title": "Origin of the Moon",
+      "authors": "Robin M. Canup, Kevin Righter, Nicolas Dauphas, Kaveh Pahlevan, Matija Ćuk, Simon J. Lock, Sarah T. Stewart, Julien Salmon, Raluca Rufu, Miki Nakajima, Tomáš Magna",
+      "abstract": "The Earth-Moon system is unusual in several respects. The Moon is roughly 1/4 the radius of the Earth - a larger satellite-to-planet size ratio than all known satellites other than Pluto's Charon. The Moon has a tiny core, perhaps with only ~1% of its mass, in contrast to Earth whose core contains nearly 30% of its mass. The Earth-Moon system has a high total angular momentum, implying a rapidly spinning Earth when the Moon formed. In addition, the early Moon was hot and at least partially molten with a deep magma ocean. Identification of a model for lunar origin that can satisfactorily explain all of these features has been the focus of decades of research.",
+      "url": "http://arxiv.org/abs/2103.02045v1"
+    },
+    {
+      "title": "Instrumentation For Geological Fieldwork on the Moon",
+      "authors": "D. L. Talboys, G. W. Fraser, R. M. Ambrosi, N. Nelms, N. P. Bannister, M. R. Sims, D. Pullan, J. Holt",
+      "abstract": "A human return to the Moon will require that astronauts are well equipped with instrumentation to aid their investigations during geological field work. Two instruments are described in detail. The first is a portable X-ray Spectrometer, which can provide rapid geochemical analyses of rocks and soils, identify lunar resources and aid selection of samples for return to Earth. The second instrument is the Geological and Radiation environment package (GEORAD). This is an instrument package, mounted on a rover, to perform in-situ measurements on the lunar surface. It can be used for bulk geochemical measurements of rocks and soils (particularly identifying KREEP-enriched rocks), prospect for ice in shadowed areas of craters at the poles and characterise the lunar radiation environment.",
+      "url": "http://arxiv.org/abs/physics/0510137v1"
+    },
+    {
+      "title": "Constraints on Dark Matter from the Moon",
+      "authors": "Raghuveer Garani, Peter Tinyakov",
+      "abstract": "New and complimentary constraints are placed on the spin-independent interactions of dark matter with baryonic matter. Similar to the Earth and other planets, the Moon does not have any major internal heat source. We derive constraints by comparing the rate of energy deposit by dark matter annihilations in the Moon to 12 mW/m$^2$ as measured by the Apollo mission. For light dark matter of mass $\\mathcal{O}(10)$ GeV, we also examine the possibility of dark matter annihilations in the Moon limb. In this case, we place constraints by comparing the photon flux from such annihilations to that of the Fermi-LAT measurement of $10^{-4}$ MeV/cm$^2$s. This analysis excludes spin independent cross section $\\gtrsim 10^{-37}$ $\\rm{cm}^2$ for dark matter mass between 30 and 50 GeV.",
+      "url": "http://arxiv.org/abs/1912.00443v2"
+    },
+    {
+      "title": "Science enabled by a Moon Village",
+      "authors": "Ian A. Crawford",
+      "abstract": "A human-robotic \"Moon Village\" would offer significant scientific opportunities by providing an infrastructure on the lunar surface. An analogy would be the way in which human outposts in Antarctica facilitate research activities across multiple scientific disciplines on that continent. Scientific fields expected to benefit from a Moon Village will include: planetary science, astronomy, astrobiology, life sciences, and fundamental physics. In addition, a Moon Village will help develop the use of lunar resources, which will yield additional longer-term scientific benefits.",
+      "url": "http://arxiv.org/abs/1706.06698v1"
+    },
+    {
+      "title": "Geophysical inversions to delineate rocks with CO$_2$ sequestration potential through carbon mineralization",
+      "authors": "Lindsey J. Heagy, Thibaut Astic, Joseph Capriotti, John Weis, Douglas W. Oldenburg",
+      "abstract": "In addition to reducing anthropogenic emissions of CO$_2$, it is increasingly clear we also need to remove CO$_2$ from the atmosphere in order to avoid some of the worst case scenarios for climate change. Geologic sequestration of CO$_2$ is among the most attractive approaches because of the large global capacity and long-time scales for storage. One mechanism of geologic storage is through carbon mineralization. Some mafic and ultramafic rocks contain minerals that will react with CO$_2$ in a carbonation reaction and convert it to carbonated minerals. This is effectively a permanent CO$_2$ storage mechanism. The geologic question we are faced with is then to locate, delineate and estimate the volume of potentially reactive rocks. Using a synthetic model that emulates a prospective site for carbon mineralization in British Columbia, we simulate and invert gravity and magnetic data to delineate reactive rocks. We begin by inverting each data set independently and introduce a proxy experiment to contend with the challenging problem of choosing an appropriate physical-property threshold to estimate volumes from the recovered model. We use this proxy experiment to estimate thresholds for standard, $\\ell_2$ inversion of the gravity and magnetics, as well as for inversions which use sparse and compact norms. A Petrophysically and Geologically Guided Inversion (PGI) framework is used to construct quasi-geologic models from which volumes can be estimated directly. We apply the PGI framework to the magnetics and gravity data independently. The framework is also used to jointly invert these data and produce a model that is consistent with both data sets. Cumulative volume estimates with depth are informative and can help decide whether in situ or ex situ sequestration might be appropriate. Using each of the inverted models, we estimate cumulative volume of reactive rock as a function of depth.",
+      "url": "http://arxiv.org/abs/2203.13894v1"
+    }
+  ],
+  "draft": "Abstract:\nTitle: Instrumentation For Geological Fieldwork on the Moon\nAuthors: D. L. Talboys, G. W. Fraser, R. M. Ambrosi, N. Nelms, N. P. Bannister, M. R. Sims, D. Pullan, J. Holt\nAbstract: A human return to the Moon will require that astronauts are well equipped with instrumentation to aid their investigations during geological field work. Two instruments are described in detail. The first is a portable X-ray Spectrometer, which can provide rapid geochemical analyses of rocks and soils, identify lunar resources and aid selection of samples for return to Earth. The second instrument is the Geological and Radiation environment package (GEORAD). This is an instrument package, mounted on a rover, to perform in-situ measurements on the lunar surface. It can be used for bulk geochemical measurements of\n\nIntroduction:\nThis paper addresses moon rocks. Context and related work: Title: Instrumentation For Geological Fieldwork on the Moon\nAuthors: D. L. Talboys, G. W. Fraser, R. M. Ambrosi, N. Nelms, N. P. Bannister, M. R. Sims, D. Pullan, J. Holt\nAbstract: A human return to the Moon will require that astronauts are well equipped with instrumentation to aid their investigations during geological field work. Two instruments are described in detail. The first is a portable X-ray Spectrometer, which can provide rapid geochemical analyses of rocks and soils, identify lunar resources and aid selection of samples for return to Earth. The second instrument is the Geological and Radiation environment package (GEORAD). This is an instrument package, mounted on a rover, to perform in-situ measurements on the lunar surface. It can be used for bulk geochemical measurements of rocks and soils (particularly identifying KREEP-enriched rocks), prospect for ice in shadowed areas of craters at the poles and characterise the lunar radiation environment.\nURL: http://arxiv.org/abs/physics/0510137v1\n\nTitle: The moon and the origin of life\nAuthors: C. R. Benn\nAbstract: Earth is unusual in bearing ",
+  "edited": "Abstract:\nTitle: Instrumentation For Geological Fieldwork on the Moon\nAuthors: D. L. Talboys, G. W. Fraser, R. M. Ambrosi, N. Nelms, N. P. Bannister, M. R. Sims, D. Pullan, J. Holt\nAbstract: A human return to the Moon will require that astronauts are well equipped with instrumentation to aid their investigations during geological field work. Two instruments are described in detail. The first is a portable X-ray Spectrometer, which can provide rapid geochemical analyses of rocks and soils, identify lunar resources and aid selection of samples for return to Earth. The second instrument is the Geological and Radiation environment package (GEORAD). This is an instrument package, mounted on a rover, to perform in-situ measurements on the lunar surface. It can be used for bulk geochemical measurements of\n\nIntroduction:\nThis paper addresses moon rocks. Context and related work: Title: Instrumentation For Geological Fieldwork on the Moon\nAuthors: D. L. Talboys, G. W. Fraser, R. M. Ambrosi, N. Nelms, N. P. Bannister, M. R. Sims, D. Pullan, J. Holt\nAbstract: A human return to the Moon will require that astronauts are well equipped with instrumentation to aid their investigations during geological field work. Two instruments are described in detail. The first is a portable X-ray Spectrometer, which can provide rapid geochemical analyses of rocks and soils, identify lunar resources and aid selection of samples for return to Earth. The second instrument is the Geological and Radiation environment package (GEORAD). This is an instrument package, mounted on a rover, to perform in-situ measurements on the lunar surface. It can be used for bulk geochemical measurements of rocks and soils (particularly identifying KREEP-enriched rocks), prospect for ice in shadowed areas of craters at the poles and characterise the lunar radiation environment.\nURL: http://arxiv.org/abs/physics/0510137v1\n\nTitle: The moon and the origin of life\nAuthors: C. R. Benn\nAbstract: Earth is unusual in bearing ",
+  "plagiarism": {
+    "max_similarity": 45.37,
+    "avg_similarity": 11.09,
+    "flags": []
+  }
+}

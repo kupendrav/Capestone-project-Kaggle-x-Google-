@@ -1,0 +1,84 @@
+{
+  "title": "The Role of AI Agents in Enhancing Academic Writing",
+  "steps": [
+    {
+      "step": "research",
+      "count": 5,
+      "time": 3.659139394760132
+    },
+    {
+      "step": "draft",
+      "time": 11.79016661643982
+    },
+    {
+      "step": "edit",
+      "time": 0.00036978721618652344
+    },
+    {
+      "step": "plagiarism",
+      "time": 0.020191431045532227
+    },
+    {
+      "step": "research",
+      "count": 5,
+      "time": 9.899753332138062
+    },
+    {
+      "step": "draft",
+      "time": 12.206874132156372
+    },
+    {
+      "step": "edit",
+      "time": 0.0021169185638427734
+    },
+    {
+      "step": "plagiarism",
+      "time": 0.019031286239624023
+    }
+  ],
+  "metrics": {
+    "total_time": 22.129048824310303,
+    "num_papers": 5
+  },
+  "papers": [
+    {
+      "title": "Towards AI-assisted Academic Writing",
+      "authors": "Daniel J. Liebling, Malcolm Kane, Madeleine Grunde-Mclaughlin, Ian J. Lang, Subhashini Venugopalan, Michael P. Brenner",
+      "abstract": "We present components of an AI-assisted academic writing system including citation recommendation and introduction writing. The system recommends citations by considering the user's current document context to provide relevant suggestions. It generates introductions in a structured fashion, situating the contributions of the research relative to prior work. We demonstrate the effectiveness of the components through quantitative evaluations. Finally, the paper presents qualitative research exploring how researchers incorporate citations into their writing workflows. Our findings indicate that there is demand for precise AI-assisted writing systems and simple, effective methods for meeting those needs.",
+      "url": "http://arxiv.org/abs/2503.13771v1"
+    },
+    {
+      "title": "Foundations of GenIR",
+      "authors": "Qingyao Ai, Jingtao Zhan, Yiqun Liu",
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "url": "http://arxiv.org/abs/2501.02842v1"
+    },
+    {
+      "title": "A cybersecurity AI agent selection and decision support framework",
+      "authors": "Masike Malatji",
+      "abstract": "This paper presents a novel, structured decision support framework that systematically aligns diverse artificial intelligence (AI) agent architectures, reactive, cognitive, hybrid, and learning, with the comprehensive National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) 2.0. By integrating agent theory with industry guidelines, this framework provides a transparent and stepwise methodology for selecting and deploying AI solutions to address contemporary cyber threats. Employing a granular decomposition of NIST CSF 2.0 functions into specific tasks, the study links essential AI agent properties such as autonomy, adaptive learning, and real-time responsiveness to each subcategory's security requirements. In addition, it outlines graduated levels of autonomy (assisted, augmented, and fully autonomous) to accommodate organisations at varying stages of cybersecurity maturity. This holistic approach transcends isolated AI applications, providing a unified detection, incident response, and governance strategy. Through conceptual validation, the framework demonstrates how tailored AI agent deployments can align with real-world constraints and risk profiles, enhancing situational awareness, accelerating response times, and fortifying long-term resilience via adaptive risk management. Ultimately, this research bridges the gap between theoretical AI constructs and operational cybersecurity demands, establishing a foundation for robust, empirically validated multi-agent systems that adhere to industry standards.",
+      "url": "http://arxiv.org/abs/2510.01751v1"
+    },
+    {
+      "title": "Techniques for supercharging academic writing with generative AI",
+      "authors": "Zhicheng Lin",
+      "abstract": "Academic writing is an indispensable yet laborious part of the research enterprise. This Perspective maps out principles and methods for using generative artificial intelligence (AI), specifically large language models (LLMs), to elevate the quality and efficiency of academic writing. We introduce a human-AI collaborative framework that delineates the rationale (why), process (how), and nature (what) of AI engagement in writing. The framework pinpoints both short-term and long-term reasons for engagement and their underlying mechanisms (e.g., cognitive offloading and imaginative stimulation). It reveals the role of AI throughout the writing process, conceptualized through a two-stage model for human-AI collaborative writing, and the nature of AI assistance in writing, represented through a model of writing-assistance types and levels. Building on this framework, we describe effective prompting techniques for incorporating AI into the writing routine (outlining, drafting, and editing) as well as strategies for maintaining rigorous scholarship, adhering to varied journal policies, and avoiding overreliance on AI. Ultimately, the prudent integration of AI into academic writing can ease the communication burden, empower authors, accelerate discovery, and promote diversity in science.",
+      "url": "http://arxiv.org/abs/2310.17143v4"
+    },
+    {
+      "title": "Safe, Untrusted, \"Proof-Carrying\" AI Agents: toward the agentic lakehouse",
+      "authors": "Jacopo Tagliabue, Ciro Greco",
+      "abstract": "Data lakehouses run sensitive workloads, where AI-driven automation raises concerns about trust, correctness, and governance. We argue that API-first, programmable lakehouses provide the right abstractions for safe-by-design, agentic workflows. Using Bauplan as a case study, we show how data branching and declarative environments extend naturally to agents, enabling reproducibility and observability while reducing the attack surface. We present a proof-of-concept in which agents repair data pipelines using correctness checks inspired by proof-carrying code. Our prototype demonstrates that untrusted AI agents can operate safely on production data and outlines a path toward a fully agentic lakehouse.",
+      "url": "http://arxiv.org/abs/2510.09567v1"
+    }
+  ],
+  "draft": "Abstract:\nTitle: Techniques for supercharging academic writing with generative AI\nAuthors: Zhicheng Lin\nAbstract: Academic writing is an indispensable yet laborious part of the research enterprise. This Perspective maps out principles and methods for using generative artificial intelligence (AI), specifically large language models (LLMs), to elevate the quality and efficiency of academic writing. We introduce a human-AI collaborative framework that delineates the rationale (why), process (how), and nature (what) of AI engagement in writing. The framework pinpoints both short-term and long-term reasons for engagement and their underlying mechanisms (e.g., cognitive offloading and imaginative stimulation). It reveals the role of AI throughout the writing process, conceptualized through a two-stage mod\n\nIntroduction:\nThis paper addresses The Role of AI Agents in Enhancing Academic Writing. Context and related work: Title: Techniques for supercharging academic writing with generative AI\nAuthors: Zhicheng Lin\nAbstract: Academic writing is an indispensable yet laborious part of the research enterprise. This Perspective maps out principles and methods for using generative artificial intelligence (AI), specifically large language models (LLMs), to elevate the quality and efficiency of academic writing. We introduce a human-AI collaborative framework that delineates the rationale (why), process (how), and nature (what) of AI engagement in writing. The framework pinpoints both short-term and long-term reasons for engagement and their underlying mechanisms (e.g., cognitive offloading and imaginative stimulation). It reveals the role of AI throughout the writing process, conceptualized through a two-stage model for human-AI collaborative writing, and the nature of AI assistance in writing, represented through a model of writing-assistance types and levels. Building on this framework, we describe effective prompting techniques for incorporating AI into the writing routine (outli",
+  "edited": "Abstract:\nTitle: Techniques for supercharging academic writing with generative AI\nAuthors: Zhicheng Lin\nAbstract: Academic writing is an indispensable yet laborious part of the research enterprise. This Perspective maps out principles and methods for using generative artificial intelligence (AI), specifically large language models (LLMs), to elevate the quality and efficiency of academic writing. We introduce a human-AI collaborative framework that delineates the rationale (why), process (how), and nature (what) of AI engagement in writing. The framework pinpoints both short-term and long-term reasons for engagement and their underlying mechanisms (e.g., cognitive offloading and imaginative stimulation). It reveals the role of AI throughout the writing process, conceptualized through a two-stage mod\n\nIntroduction:\nThis paper addresses The Role of AI Agents in Enhancing Academic Writing. Context and related work: Title: Techniques for supercharging academic writing with generative AI\nAuthors: Zhicheng Lin\nAbstract: Academic writing is an indispensable yet laborious part of the research enterprise. This Perspective maps out principles and methods for using generative artificial intelligence (AI), specifically large language models (LLMs), to elevate the quality and efficiency of academic writing. We introduce a human-AI collaborative framework that delineates the rationale (why), process (how), and nature (what) of AI engagement in writing. The framework pinpoints both short-term and long-term reasons for engagement and their underlying mechanisms (e.g., cognitive offloading and imaginative stimulation). It reveals the role of AI throughout the writing process, conceptualized through a two-stage model for human-AI collaborative writing, and the nature of AI assistance in writing, represented through a model of writing-assistance types and levels. Building on this framework, we describe effective prompting techniques for incorporating AI into the writing routine (outli",
+  "plagiarism": {
+    "max_similarity": 64.04,
+    "avg_similarity": 14.77,
+    "flags": [
+      "High similarity with source abstract"
+    ]
+  }
+}

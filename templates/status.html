@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job Status — {{ session_id }}</title>
+    <style>body{font-family:Arial, sans-serif;margin:1.5rem} pre{background:#f6f6f6;padding:1rem;max-height:400px;overflow:auto} .log{white-space:pre-wrap;font-family:monospace;background:#111;color:#eee;padding:1rem;border-radius:6px}</style>
+  </head>
+  <body>
+    <h1>Job Status — {{ session_id }}</h1>
+    <p><a href="/">← Back</a></p>
+
+    <h2>Live Logs</h2>
+    <div id="log" class="log">Connecting to live logs...</div>
+
+    <p id="result-link" style="display: none;"><a id="result-a" href="#">View results</a></p>
+
+    <script>
+      const evtSource = new EventSource('/stream/{{ session_id }}');
+      const logDiv = document.getElementById('log');
+      const resultLink = document.getElementById('result-link');
+      const resultA = document.getElementById('result-a');
+
+      evtSource.onmessage = function(e) {
+        if (e.data === '__DONE__') {
+          logDiv.textContent += '\n\n[Workflow finished] Redirecting to results...';
+          resultA.href = '/result/{{ session_id }}';
+          resultLink.style.display = 'block';
+          evtSource.close();
+          return;
+        }
+        logDiv.textContent += '\n' + e.data;
+        logDiv.scrollTop = logDiv.scrollHeight;
+      };
+
+      evtSource.onerror = function(e) {
+        logDiv.textContent += '\n[Stream error]';
+      };
+    </script>
+  </body>
+</html>
