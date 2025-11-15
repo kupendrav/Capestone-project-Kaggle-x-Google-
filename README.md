@@ -1,7 +1,8 @@
 
 # Multi-Agent Academic Paper Assistant
 
-This workspace contains a Jupyter notebook `agent.ipynb` and a runnable script `agent_app.py` that demonstrate a multi-agent system for academic paper drafting: Research -> Writer -> Editor -> Plagiarism estimation.
+This ![generated-image](https://github.com/user-attachments/assets/52f7f2c2-cf00-45b5-83bb-69e765650d4b)
+workspace contains a Jupyter notebook `agent.ipynb` and a runnable script `agent_app.py` that demonstrate a multi-agent system for academic paper drafting: Research -> Writer -> Editor -> Plagiarism estimation.
 
 Files
 - `agent.ipynb`: The notebook implementing agents and workflow (demo). Depending on your environment, executing the notebook programmatically may fail if the notebook JSON contains formatting issues; use `agent_app.py` for a reliable run.
@@ -80,6 +81,7 @@ Notes
 
 Where outputs are saved
 - Sessions and logs: `sessions/<session_id>.json` and `sessions/<session_id>.log`.
+<img width="3750" height="2250" alt="workflow" src="https://github.com/user-attachments/assets/c52f23bb-4d68-446c-8183-0369f7b45b11" />
 
 Next recommended improvements
 - Add vector memory and semantic plagiarism (embeddings + FAISS).
