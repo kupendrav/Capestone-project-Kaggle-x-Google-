@@ -1,4 +1,4 @@
-# Multi-Agent Academic Paper Assistant
+
 # Multi-Agent Academic Paper Assistant
 
 This workspace contains a Jupyter notebook `agent.ipynb` and a runnable script `agent_app.py` that demonstrate a multi-agent system for academic paper drafting: Research -> Writer -> Editor -> Plagiarism estimation.
